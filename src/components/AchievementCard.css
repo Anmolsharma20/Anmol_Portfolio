@@ -1,0 +1,63 @@
+.achievements-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1e242d !important;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  min-height: 280px; /* all cards same height */
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Ensure uniform sections */
+.achievement-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  min-height: 40px; /* title area same height */
+}
+
+.achievement-issuer {
+  font-size: 0.9rem;
+  color: #666;
+  min-height: 20px; /* company area same height */
+}
+
+.achievement-desc {
+  font-size: 0.95rem;
+  flex-grow: 1; /* description expands */
+  min-height: 60px; /* same description block height */
+  margin-bottom: 15px;
+}
+
+.achievement-btn {
+  margin-top: auto; /* push button to bottom */
+}
+
+.view-btn {
+  padding: 8px 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.text-muted{
+  color: white !important;
+}
+.view-btn:hover {
+  background-color: #0056b3;
+}

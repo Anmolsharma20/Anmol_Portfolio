@@ -1,0 +1,121 @@
+/* ===== Global Theme Colors ===== */
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #00b4d8;
+  --background-color: #0d1117;
+  --section-background: #161b22;
+  --card-background: #1e242d;
+  --font-color: #c9d1d9;
+  --heading-color: #ffffff;
+  --muted-color: #ffffff;
+}
+
+/* Background */
+body {
+  background-color: var(--background-color) !important;
+  color: var(--font-color) !important;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Mouse Glow Effect */
+.mouse-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 200px at var(--x, 50%) var(--y, 50%),
+    rgba(0, 180, 216, 0.15),
+    transparent 40%
+  );
+  z-index: 1;
+  transition: background 0.1s ease;
+}
+
+.main-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Cards */
+.card {
+  background-color: var(--card-background) !important;
+  color: var(--font-color) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: #2a303a !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color) !important;
+}
+/* App Wrapper ensures footer sticks at bottom */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+  flex: 1; /* Push footer to bottom */
+}
+
+/* ===== Accordion Styling ===== */
+.accordion-item {
+  background-color: var(--card-background) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  margin-bottom: 8px;
+}
+
+.accordion-button {
+  background-color: var(--section-background) !important;
+  color: var(--font-color) !important;
+  font-weight: 500;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #2a303a !important;
+  color: #fff !important;
+}
+
+.accordion-body {
+  background-color: var(--card-background) !important;
+  color: var(--font-color) !important;
+  border-radius: 0 0 8px 8px !important;
+}
+/* ===== Dropdown Menu Styling ===== */
+.dropdown-menu {
+  background-color: var(--card-background) !important; /* dark gunmetal */
+  color: var(--font-color) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: var(--font-color) !important;
+  padding: 10px 15px;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #2a303a !important; /* darker hover effect */
+  color: #fff !important;
+}

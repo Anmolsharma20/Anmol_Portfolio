@@ -1,0 +1,38 @@
+.footer {
+  background-color: #1e242d; /* matches card theme */
+  text-align: center;
+  padding: 10px 0;  /* slimmer: was 20px */
+  color: var(--muted-color);
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* subtle separation */
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-icons {
+  margin-top: 6px; /* reduced from 10px */
+}
+
+.footer-icons a {
+  color: var(--font-color);
+  margin: 0 8px;  /* tighter spacing */
+  font-size: 18px; /* slightly smaller icons */
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: var(--secondary-color);
+}
+
+/* Optional: make it breathe more on mobile */
+@media (max-width: 600px) {
+  .footer {
+    padding: 14px 0; /* a little taller for touch */
+  }
+  .footer-icons a {
+    font-size: 20px; /* keep icons finger-friendly */
+  }
+}

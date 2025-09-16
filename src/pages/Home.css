@@ -1,0 +1,78 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  text-align: center;
+  /* background: linear-gradient(135deg, #1a1a1a, #000000); Base gradient */
+  color: white;
+  padding: 40px 20px;
+  transition: background 0.3s ease; /* smooth glow transition */
+}
+
+.home-content {
+  max-width: 800px;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.home .highlight {
+  background: linear-gradient(90deg, #4da6ff, #00ffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.home .tagline {
+  font-size: 1.5rem;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+.home .intro {
+  font-size: 1rem;
+  color: #aaaaaa;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(77, 166, 255, 0.3);
+}
+
+.btn.primary {
+  background: linear-gradient(45deg, #4da6ff, #1a8cff);
+  color: white;
+}
+
+.btn.primary:hover {
+  background: linear-gradient(45deg, #1a8cff, #4da6ff);
+}
+
+.btn.secondary {
+  border: 2px solid #4da6ff;
+  color: #4da6ff;
+  background: transparent;
+}
+
+.btn.secondary:hover {
+  background: linear-gradient(45deg, #4da6ff, #1a8cff);
+  color: white;
+}
