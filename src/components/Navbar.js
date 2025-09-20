@@ -49,7 +49,7 @@ function Navbar() {
                 <li><a className="dropdown-item" href="https://www.linkedin.com/in/anmol-sharma-6b8552226" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a className="dropdown-item" href="https://www.hackerrank.com/profile/anmolsharma14003" target="_blank" rel="noopener noreferrer">HackerRank</a></li>
                 <li><a className="dropdown-item" href="mailto:anmolsharma14003@gmail.com">Gmail</a></li>
-                <li><a className="dropdown-item" href="https://docs.google.com/document/d/1U2aOHIZFcSej0FRdz-xUfDRnP3Nmv6BnxNV67-1nD3E/edit?usp=sharing" target="_blank" rel="noopener noreferrer" download="Anmol_Sharma_Resume.pdf">Resume</a></li>
+                <li><a className="dropdown-item" href="https://drive.google.com/file/d/1g6x_K-vmS1CMCZ5Mct0ARh-cTde1UX_R/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Anmol_Sharma_Resume.pdf">Resume</a></li>
               </ul>
             </li>
           </ul>
