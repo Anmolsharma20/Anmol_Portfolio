@@ -49,7 +49,7 @@ function Home() {
           <Link to="/projects" className="btn primary">View Projects</Link>
           <Link to="/achievements" className="btn primary">See Achievements</Link>
           <Link to="/certificates" className="btn primary">View Certificates</Link>
-          <Link to="/contact" className="btn primary">Contact Me</Link>
+          {/* <Link to="/contact" className="btn primary">Contact Me</Link> */}
         </div>
       </div>
     </section>
