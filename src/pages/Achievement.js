@@ -30,7 +30,7 @@ const Achievement = () => {
   }, []);
 
   return (
-    <div className="achievements-container" style={{ padding: "0 6rem 6rem 6rem" }}>
+    <div className="achievements-container" >
       <h2 style={{ marginTop: "5rem", marginBottom: "3rem" }}>Achievements</h2>
 
       <div className="achievements-list">
