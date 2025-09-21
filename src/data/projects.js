@@ -49,7 +49,7 @@ const projectsData = [
       "Developed a responsive and dynamic Flipkart homepage clone using HTML, CSS, and JavaScript. Implemented dynamic product listing, search functionality, and styled components to replicate the real Flipkart experience. This project sharpened frontend development skills and UI design.",
     image: "/assets/flipkart_clone.png",
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    projectUrl: "", // update if you have a repo
+    projectUrl: "https://github.com/Anmolsharma20/Flipkart_front_page_clone", // update if you have a repo
   },  
   {
     id: 6,
