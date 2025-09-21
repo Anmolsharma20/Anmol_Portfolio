@@ -13,26 +13,16 @@ const projectsData = [
   },
   {
     id: 2,
-    name: "Flipkart Homepage Clone",
-    description: "A functional Flipkart homepage clone with product listings and search.",
+    name: "Car Rental Website",
+    description: "A responsive car rental booking platform with user interface for rentals.",
     details:
-      "Developed a responsive and dynamic Flipkart homepage clone using HTML, CSS, and JavaScript. Implemented dynamic product listing, search functionality, and styled components to replicate the real Flipkart experience. This project sharpened frontend development skills and UI design.",
-    image: "/assets/flipkart_clone.png",
-    skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    projectUrl: "", // update if you have a repo
+      "Designed and developed a car rental website with options to view, filter, and book cars. Integrated a clean UI for car details (price, type, availability) and booking flow. Added responsive design for mobile and desktop. Future scope includes payment integration and user authentication.",
+    image: "/assets/car_rental.png",
+    skills: ["HTML", "CSS", "JavaScript", "React", "UI/UX"],
+    projectUrl: "https://car-rental-fullstack-rho.vercel.app/", // update if repo exists
   },
   {
     id: 3,
-    name: "Payment Gateway & Ask a Question – MNF",
-    description: "Real-time payment gateway with discount system and Q&A interface.",
-    details:
-      "Built a secure payment gateway with discount integration for MNF. Designed an 'Ask a Question' feature where users could select from pre-written questions to streamline query resolution. Recognized as the highest bug solver in the team and delivered reports directly to the CEO.",
-    image: "/assets/payment_gateway.png",
-    skills: ["JavaScript", "Payment APIs", "Frontend Development", "Bug Resolution"],
-    projectUrl: "", // add link if deployed
-  },
-  {
-    id: 4,
     name: "Land & Water Classification – Google Earth Engine",
     description: "Geospatial classification model achieving 0.928 F1 score.",
     details:
@@ -42,15 +32,25 @@ const projectsData = [
     projectUrl: "https://code.earthengine.google.com/ed31c3d01126c50407867236db941b41", // add link if hosted
   },
   {
-    id: 5,
-    name: "Car Rental Website",
-    description: "A responsive car rental booking platform with user interface for rentals.",
+    id: 4,
+    name: "Payment Gateway & Ask a Question – MNF",
+    description: "Real-time payment gateway with discount system and Q&A interface.",
     details:
-      "Designed and developed a car rental website with options to view, filter, and book cars. Integrated a clean UI for car details (price, type, availability) and booking flow. Added responsive design for mobile and desktop. Future scope includes payment integration and user authentication.",
-    image: "/assets/car_rental.png",
-    skills: ["HTML", "CSS", "JavaScript", "React", "UI/UX"],
-    projectUrl: "https://car-rental-fullstack-rho.vercel.app/", // update if repo exists
+      "Built a secure payment gateway with discount integration for MNF. Designed an 'Ask a Question' feature where users could select from pre-written questions to streamline query resolution. Recognized as the highest bug solver in the team and delivered reports directly to the CEO.",
+    image: "/assets/payment_gateway.png",
+    skills: ["JavaScript", "Payment APIs", "Frontend Development", "Bug Resolution"],
+    projectUrl: "", // add link if deployed
   },
+  {
+    id: 5,
+    name: "Flipkart Homepage Clone",
+    description: "A functional Flipkart homepage clone with product listings and search.",
+    details:
+      "Developed a responsive and dynamic Flipkart homepage clone using HTML, CSS, and JavaScript. Implemented dynamic product listing, search functionality, and styled components to replicate the real Flipkart experience. This project sharpened frontend development skills and UI design.",
+    image: "/assets/flipkart_clone.png",
+    skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    projectUrl: "", // update if you have a repo
+  },  
   {
     id: 6,
     name: "Deloitte Tableau Work",
